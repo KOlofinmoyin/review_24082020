@@ -36,4 +36,9 @@ describe '#spell_checker' do
     expect(spell_checker(word)).to eq "These 3 words are spelt correctly"
   end
 
+  it "returns 'These 4 words are ~spnelt~ ~correclty~''" do
+    word = "These 4 words are spnelt correclty"
+    expect(spell_checker(word)).to eq "These 4 words are ~spnelt~ ~correclty~"
+  end
+
 end

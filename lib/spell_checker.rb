@@ -7,7 +7,8 @@ def spell_checker(input_words)
     "correctly": "correctly",
     "Apple": "Apple",
     "Pear": "Pear",
-    "3":"3"
+    "3":"3",
+    "4":"4"
   }
   word_array = input_words.split(" ")
   output_array = []
