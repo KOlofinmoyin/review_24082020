@@ -16,8 +16,13 @@ describe '#spell_checker' do
   #   expect(spell_checker(word)).to eq "Apple ~Paer~"
   # end
 
-  it "returns one word if spelt incorrectly" do
+  it "returns '~Paer~' if spelt incorrectly" do
     word = "Paer"
     expect(spell_checker(word)).to eq "~Paer~"
+  end
+
+  it "returns ~Appple~ if spelt incorrectly" do
+    word = "Appple"
+    expect(spell_checker(word)).to eq "~Appple~"
   end
 end

@@ -21,11 +21,11 @@ Design is agnostic.
 Input                                  |  Outputs
 ===============================================================================
 
-1. "Apple"
+1. (done)"Apple"
 2. "Apple Pear"
 - (done) "These words are spelt correctly" | "These words are spelt correctly"
 - "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
--- MV  -- (above)
+-- MVP  -- (above)
 - "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
 - "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
 

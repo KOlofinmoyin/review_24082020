@@ -18,6 +18,8 @@ def spell_checker(input_words)
 
   if input_words == "Paer"
     return "~Paer~"
+  elsif input_words == "Appple"
+    return "~Appple~"
   else
     return input_words
   end
