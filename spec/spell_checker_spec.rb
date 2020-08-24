@@ -26,6 +26,11 @@ describe '#spell_checker' do
     expect(spell_checker(word)).to eq "~Appple~"
   end
 
+  it "returns 'These words are ~spnelt~ ~correclty~''" do
+    word = "These words are spnelt correclty"
+    expect(spell_checker(word)).to eq "These words are ~spnelt~ ~correclty~"
+  end
+
    # "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
 
 end
