@@ -21,10 +21,11 @@ Design is agnostic.
 Input                                  |  Outputs
 ===============================================================================
 
-1. "These words are spelt correctly" | "These words are spelt correctly"
-2. "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
+1. "Apple"
+- (done) "These words are spelt correctly" | "These words are spelt correctly"
+- "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
 -- MV  -- (above)
-3. "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
-4. "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
+- "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
+- "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
 
 ```
