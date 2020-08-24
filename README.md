@@ -25,11 +25,10 @@ Input                                  |  Outputs
 2. (done)"Pear"
 3. (done)"Appple"
 4. (done) "Paer"
-
-- (done) "These words are spelt correctly" | "These words are spelt correctly"
-- "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
+5. (done) "These words are spelt correctly" | "These words are spelt correctly"
+6. (done) "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
 -- MVP  -- (above)
-- "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
-- "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
+7. "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
+8. "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
 
 ```
