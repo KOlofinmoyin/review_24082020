@@ -11,10 +11,10 @@ describe '#spell_checker' do
     expect(spell_checker(word)).to eq 'These words are spelt correctly'
   end
 
-  # it "returns two words if spelt correctly" do
-  #   word = "Apple Paer"
-  #   expect(spell_checker(word)).to eq "Apple ~Paer~"
-  # end
+  it "returns Apple ~Paer~" do
+    word = "Apple Paer"
+    expect(spell_checker(word)).to eq "Apple ~Paer~"
+  end
 
   it "returns '~Paer~' if spelt incorrectly" do
     word = "Paer"
@@ -25,4 +25,7 @@ describe '#spell_checker' do
     word = "Appple"
     expect(spell_checker(word)).to eq "~Appple~"
   end
+
+   # "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
+
 end

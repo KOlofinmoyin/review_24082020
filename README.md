@@ -22,7 +22,10 @@ Input                                  |  Outputs
 ===============================================================================
 
 1. (done)"Apple"
-2. "Apple Pear"
+2. (done)"Pear"
+3. (done)"Appple"
+4. (done) "Paer"
+
 - (done) "These words are spelt correctly" | "These words are spelt correctly"
 - "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
 -- MVP  -- (above)
