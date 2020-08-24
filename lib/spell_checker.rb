@@ -1,3 +1,3 @@
-def spell_checker(word)
-  'These words are spelt correctly'
+def spell_checker(sentence)
+  sentence
 end
