@@ -28,7 +28,10 @@ Input                                  |  Outputs
 5. (done) "These words are spelt correctly" | "These words are spelt correctly"
 6. (done) "These words are spnelt correclty" | "These words are ~spnelt~ ~correclty~"
 -- MVP  -- (above)
-7. "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
-8. "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
+7. (done) "These 3 words are spelt correctly" | "These 3 words are spelt correctly"
+8. (done) "These 4 words are spnelt correclty" | "These 4 words are ~spnelt~ ~correclty~"
 
 ```
+
+Review feedback:
+`https://www.youtube.com/watch?v=ajS5YmLUt_Y`
